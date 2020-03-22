@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-22 21:22","snippets":[{"name":"WordPress: Change image compression for .jpeg files for 90%","tags":["wordpress","image","compression"],"scope":"global","code":"add_filter( 'jpeg_quality', function() {\n    return 90;\n});","priority":"10"}]}
