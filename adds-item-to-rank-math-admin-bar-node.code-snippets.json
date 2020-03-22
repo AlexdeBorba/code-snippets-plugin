@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-22 15:24","snippets":[{"name":"Adds item to Rank Math admin bar node","desc":"Adds item to Rank Math admin bar node","tags":["wordpress","code-snippets-plugin","rankmath","seo"],"scope":"global","code":"add_filter('rank_math\/admin_bar\/items', function($items) {\n    return $items;\n});","priority":"10"}]}
