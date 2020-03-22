@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-22 15:49","snippets":[{"name":"Adds filter to remove sitemap credit","desc":"Adds Rank Math SEO filter to remove sitemap credit","tags":["wordpress","code-snippets-plugin","rankmath","seo","sitemap"],"scope":"front-end","code":"add_filter('rank_math\/sitemap\/remove_credit', '__return_true');","priority":"10"}]}
