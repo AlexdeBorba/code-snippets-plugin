@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 02:05","snippets":[{"name":"Gutenberg: Disable block editor","tags":["wordpress","gutenberg","block"],"scope":"admin","code":"add_filter('use_block_editor_for_post', '__return_false');","priority":"10"}]}
