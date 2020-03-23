@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 18:55","snippets":[{"name":"WordPress: Disable wp_attempt_focus","tags":["wordpress","login"],"scope":"front-end","code":"add_action(\"login_form\", \"disable_wp_attempt_focus\");\nfunction disable_wp_attempt_focus() {\n    global $error;\n    $error = TRUE;\n}","priority":"10"}]}
