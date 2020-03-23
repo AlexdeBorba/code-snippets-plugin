@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 16:38","snippets":[{"name":"Jetpack: Disable upsell ads","tags":["jetpack","upsell","ads"],"scope":"admin","code":"add_filter( 'jetpack_just_in_time_msgs', '_return_false' );","priority":"10"}]}
