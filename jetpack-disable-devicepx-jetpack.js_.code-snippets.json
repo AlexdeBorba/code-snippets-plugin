@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:45","snippets":[{"name":"JetPack: Disable devicepx-jetpack.js","tags":["wordpress","jetpack"],"scope":"front-end","code":"function tj_dequeue_devicepx() {\n wp_dequeue_script( 'devicepx' );\n}\nadd_action( 'wp_enqueue_scripts', 'tj_dequeue_devicepx' );","priority":"10"}]}
