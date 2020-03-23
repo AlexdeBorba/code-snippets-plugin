@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 16:15","snippets":[{"name":"WooCommerce: Disable Unique SKU Check","desc":"\n","tags":["woocommerce","sku"],"scope":"admin","code":"add_filter( 'wc_product_has_unique_sku', '__return_false' ); ","priority":"10"}]}
