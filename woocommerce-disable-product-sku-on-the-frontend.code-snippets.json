@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 13:44","snippets":[{"name":"WooCommerce: Disable product SKU on the frontend","tags":["woocommerce","product","sku"],"scope":"front-end","code":"add_filter( 'wc_product_sku_enabled', '__return_false' );","priority":"10"}]}
