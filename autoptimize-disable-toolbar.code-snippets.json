@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:04","snippets":[{"name":"Autoptimize: Disable Toolbar","tags":["wordpress","woocommerce","autoptimize","toolbar"],"scope":"admin","code":"add_filter('autoptimize_filter_toolbar_show','__return_false');","priority":"10"}]}
