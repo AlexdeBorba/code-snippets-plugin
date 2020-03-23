@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:19","snippets":[{"name":"GravityView: Disable cache","tags":["wordpress","gravityview","disable","cache"],"scope":"admin","code":"add_filter('gravityview_use_cache', '__return_false');","priority":"10"}]}
