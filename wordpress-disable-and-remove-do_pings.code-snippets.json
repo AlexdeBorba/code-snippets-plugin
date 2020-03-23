@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 00:45","snippets":[{"name":"WordPress: Disable and remove do_pings","tags":["wordpress","pings"],"scope":"admin","code":"if (isset($_GET['doing_wp_cron'])) {\n\tremove_action('do_pings', 'do_all_pings');\n\twp_clear_scheduled_hook('do_pings');\n}","priority":"10"}]}
