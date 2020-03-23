@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 12:44","snippets":[{"name":"Jetpack: Disable plugin search suggestions","tags":["wordpress","jetpack","search"],"scope":"admin","code":"add_filter( \u2018jetpack_show_promotions\u2019, \u2018__return_false\u2019, 20 )","priority":"10"}]}
