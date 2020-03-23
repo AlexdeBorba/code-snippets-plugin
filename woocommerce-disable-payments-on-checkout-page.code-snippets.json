@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 13:23","snippets":[{"name":"WooCommerce: Disable payments on checkout page","tags":["woocommerce","checkout","payments"],"scope":"front-end","code":"add_filter( 'woocommerce_cart_needs_payment', '__return_false' );","priority":"10"}]}
