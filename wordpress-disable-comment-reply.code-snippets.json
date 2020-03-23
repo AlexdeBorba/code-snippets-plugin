@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:20","snippets":[{"name":"WordPress: Disable comment reply","tags":["wordpress","comment"],"scope":"front-end","code":"function comments_clean_header_hook(){\n wp_deregister_script( 'comment-reply' );\n }\nadd_action('init','comments_clean_header_hook');","priority":"10"}]}
