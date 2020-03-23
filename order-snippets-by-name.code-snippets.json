@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 02:11","snippets":[{"name":"Order snippets by name","desc":"Order snippets by name by default in the snippets table.","tags":["code-snippets-plugin"],"scope":"admin","code":"\nadd_filter( 'code_snippets\/list_table\/default_orderby', function () {\n\treturn 'name';\n} );\n","priority":"10"}]}
