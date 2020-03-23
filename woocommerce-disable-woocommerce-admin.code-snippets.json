@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 18:21","snippets":[{"name":"WooCommerce: Disable WooCommerce Admin","tags":["woocommerce","admin","analytics"],"scope":"admin","code":"add_filter( 'woocommerce_admin_disabled', '__return_true' );","priority":"10"}]}
