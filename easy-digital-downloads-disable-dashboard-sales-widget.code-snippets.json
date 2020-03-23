@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:48","snippets":[{"name":"Easy Digital Downloads: Disable dashboard sales widget","tags":["wordpress","edd","sales","widgets"],"scope":"admin","code":"remove_action( 'wp_dashboard_setup', 'edd_register_dashboard_widgets', 10 );","priority":"10"}]}
