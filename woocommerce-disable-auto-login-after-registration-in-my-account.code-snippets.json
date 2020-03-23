@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 00:59","snippets":[{"name":"WooCommerce: Disable auto Login after Registration in My Account","tags":["woocommerce","login","my account"],"scope":"front-end","code":"add_filter( 'woocommerce_registration_auth_new_customer', '__return_false' );","priority":"10"}]}
