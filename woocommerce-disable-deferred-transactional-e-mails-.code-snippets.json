@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:40","snippets":[{"name":"WooCommerce: Disable deferred transactional e-mails ","tags":["woocommerce","transactional","emails"],"scope":"admin","code":"add_filter( 'woocommerce_defer_transactional_emails', '__return_false' );","priority":"10"}]}
