@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 01:12","snippets":[{"name":"WordPress: Disable big image size threshold","tags":["wordpress","image","resize"],"scope":"global","code":"add_filter( 'big_image_size_threshold', '__return_false' );","priority":"10"}]}
