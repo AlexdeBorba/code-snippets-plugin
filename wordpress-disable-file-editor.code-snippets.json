@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-23 02:01","snippets":[{"name":"WordPress: Disable File Editor","tags":["wordpress","file editor"],"scope":"admin","code":"if ( ! defined( 'ABSPATH' ) ){\n\texit; \/\/ Exit if accessed this file directly\n} \n\nif( !defined('DISALLOW_FILE_EDIT') ){\n\tdefine( 'DISALLOW_FILE_EDIT', true );\n}\n\n","priority":"10"}]}
