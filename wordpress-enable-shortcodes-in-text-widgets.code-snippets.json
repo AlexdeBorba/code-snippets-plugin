@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-24 19:08","snippets":[{"name":"WordPress: Enable shortcodes in text widgets","tags":["wordpress","shortcodes","widgets"],"scope":"global","code":"add_filter('widget_text','do_shortcode');","priority":"10"}]}
