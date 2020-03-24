@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-24 19:18","snippets":[{"name":"FacetWP: Enable Variable Products","tags":["woocommerce","facetwp","variables","products"],"scope":"global","code":"add_filter( 'facetwp_enable_product_variations', '__return_true' );","priority":"10"}]}
