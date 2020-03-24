@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-24 13:17","snippets":[{"name":"WordPress: Disable X-Pingback to header","tags":["wordpress","pingback"],"scope":"global","code":"add_filter( 'wp_headers', 'disable_x_pingback' );\nfunction disable_x_pingback( $headers ) {\n    unset( $headers['X-Pingback'] );\n\nreturn $headers;\n}","priority":"10"}]}
