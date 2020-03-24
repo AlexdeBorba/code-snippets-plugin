@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-24 13:07","snippets":[{"name":"WordPress: Disable XML-RPC methods that require authentication","tags":["wordpress","authentication","xml-rpc"],"scope":"global","code":"add_filter( 'xmlrpc_enabled', '__return_false' );","priority":"10"}]}
