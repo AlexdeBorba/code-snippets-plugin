@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-24 20:03","snippets":[{"name":"FacetWP Plugin: Caching one day expiration","tags":["woocommerce","facetwp","cache"],"scope":"global","code":"function my_cache_lifetime( $seconds ) {\n    return 86400; \/\/ one day\n}\nadd_filter( 'facetwp_cache_lifetime', 'my_cache_lifetime' );","priority":"10"}]}
