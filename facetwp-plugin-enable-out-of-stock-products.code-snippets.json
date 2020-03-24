@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-24 18:49","snippets":[{"name":"FacetWP Plugin: Enable Out of Stock Products","tags":["woocommerce","facetwp","products","stock"],"scope":"global","code":"add_filter( 'facetwp_index_all_products', '__return_true' );","priority":"10"}]}
