@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-25 19:52","snippets":[{"name":"Jetpack: Remove the share counts from the sharing buttons","tags":["wordpress","jetpack","social"],"scope":"front-end","code":"add_filter( 'jetpack_sharing_counts', '__return_false' );","priority":"10"}]}
