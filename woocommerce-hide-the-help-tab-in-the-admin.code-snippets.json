@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-25 15:18","snippets":[{"name":"WooCommerce: Hide the help tab in the admin","tags":["woocommerce","wordpress","admin"],"scope":"admin","code":"add_filter( 'woocommerce_enable_admin_help_tab', '__return_false' );","priority":"10"}]}
