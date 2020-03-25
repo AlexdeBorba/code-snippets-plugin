@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-25 19:08","snippets":[{"name":"WooCommerce: Increase the default batch limit of 50 in the CSV product exporter in to a more usable 5000","tags":["woocommerce","export","csv"],"scope":"admin","code":"add_filter( 'woocommerce_product_export_batch_limit', function () {\n    return 5000;\n}, 999 );","priority":"10"}]}
