@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-25 15:28","snippets":[{"name":"WooCommerce: Hide trailing zeros on prices","tags":["woocommerce","pricing"],"scope":"front-end","code":"add_filter( 'woocommerce_price_trim_zeros', '__return_true' );","priority":"10"}]}
