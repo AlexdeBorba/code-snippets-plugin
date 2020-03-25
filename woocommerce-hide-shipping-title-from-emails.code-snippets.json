@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-25 13:03","snippets":[{"name":"WooCommerce: Hide Shipping title from emails","tags":["woocommerce","shipping"],"scope":"global","code":"add_filter( 'woocommerce_order_shipping_to_display_shipped_via', '__return_false' );","priority":"10"}]}
