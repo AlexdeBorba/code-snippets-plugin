@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-25 21:57","snippets":[{"name":"WordPress: Limit Post Revisions to five","tags":["wordpress","post","revisions"],"scope":"global","code":"if (!defined('WP_POST_REVISIONS')) define('WP_POST_REVISIONS', 5);\nif (!defined('WP_POST_REVISIONS')) define('WP_POST_REVISIONS', false);","priority":"10"}]}
