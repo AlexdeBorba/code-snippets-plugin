@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-26 12:51","snippets":[{"name":"Yoast SEO: Move box to bottom of edit page","tags":["wordpress","yoast","seo"],"scope":"admin","code":"\/\/ Move Yoast metabox to bottom of edit page\nfunction yoasttobottom() {\n\treturn 'low';\n}\nadd_filter( 'wpseo_metabox_prio', 'yoasttobottom');","priority":"10"}]}
