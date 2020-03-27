@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-27 16:39","snippets":[{"name":"WooCommerce: Remove Coupon Section on Checkout","tags":["woocommerce","coupon"],"scope":"global","code":"remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 ); ","priority":"10"}]}
