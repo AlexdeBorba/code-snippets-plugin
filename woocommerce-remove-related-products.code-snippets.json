@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-27 21:05","snippets":[{"name":"WooCommerce: Remove related products","tags":["products","woocommerce","related","product"],"scope":"front-end","code":"add_filter('woocommerce_product_related_posts_query', '__return_empty_array', 100);","priority":"10"}]}
