@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-27 16:12","snippets":[{"name":" WooCommerce: Remove connect your store admin notice","tags":["woocommerce","connect","notice"],"scope":"admin","code":"add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );","priority":"10"}]}
