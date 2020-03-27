@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-27 20:12","snippets":[{"name":"WooCommerce: Remove product dimensions from showing in the additional info tab","tags":["woocommerce","product","dimensions"],"scope":"global","code":"add_filter( 'woocommerce_product_get_dimensions', '__return_false' );","priority":"10"}]}
