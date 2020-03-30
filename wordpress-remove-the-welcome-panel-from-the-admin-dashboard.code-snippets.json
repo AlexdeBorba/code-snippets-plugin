@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-30 15:40","snippets":[{"name":"WordPress: Remove the welcome panel from the admin dashboard","tags":["wordpress","welcome","dashboard","widget"],"scope":"admin","code":"remove_action( 'welcome_panel', 'wp_welcome_panel' );","priority":"10"}]}
