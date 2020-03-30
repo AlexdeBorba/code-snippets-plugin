@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-30 16:34","snippets":[{"name":"WordPress: Remove Windows Live Writer Link","tags":["wordpress","performance","windows live writer"],"scope":"front-end","code":"remove_action('wp_head', 'wlwmanifest_link');","priority":"10"}]}
