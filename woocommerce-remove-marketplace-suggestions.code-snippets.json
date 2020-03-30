@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-30 17:02","snippets":[{"name":"WooCommerce: Remove marketplace suggestions","tags":["woocommerce","marketplace"],"scope":"admin","code":"add_filter( \u2018woocommerce_allow_marketplace_suggestions\u2019, \u2018__return_false\u2019 );","priority":"10"}]}
