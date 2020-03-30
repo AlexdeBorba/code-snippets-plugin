@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-30 18:07","snippets":[{"name":"WordPress: Remove WordPress Version Number from Head","tags":["wordpress","version"],"scope":"front-end","code":"remove_action( 'wp_head', 'wp_generator' );","priority":"10"}]}
