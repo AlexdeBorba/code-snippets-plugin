@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-03-30 14:17","snippets":[{"name":"WooCommerce: Remove the \"successfully added to cart message\"","tags":["woocommerce","cart","message"],"scope":"front-end","code":"add_filter( 'wc_add_to_cart_message_html', '__return_null' );","priority":"10"}]}
